@@ -7,12 +7,16 @@
     @apply text-[#F70035];
   }
   .bg-main-red {
-    @apply text-[#F70035];
+    @apply bg-[#F70035];
   }
   .text-main-gray {
     @apply text-[#cccccc];
   }
   .smooth-hover {
     @apply transition-all duration-300 ease-in-out;
+  }
+
+  .bg-dark-gray {
+    @apply bg-[#202121];
   }
 }
