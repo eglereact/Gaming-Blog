@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .text-main-red {
+    @apply text-[#F70035];
+  }
+  .bg-main-red {
+    @apply text-[#F70035];
+  }
+  .text-main-gray {
+    @apply text-[#cccccc];
+  }
+  .smooth-hover {
+    @apply transition-all duration-300 ease-in-out;
+  }
+}

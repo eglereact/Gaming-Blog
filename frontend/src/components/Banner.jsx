@@ -5,7 +5,7 @@ function Banner() {
     <div
       className="relative w-full h-screen bg-cover bg-center"
       style={{
-        backgroundImage: `url('https://images.pexels.com/photos/4219883/pexels-photo-4219883.jpeg')`,
+        backgroundImage: `url('https://images.pexels.com/photos/1346154/pexels-photo-1346154.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')`,
       }}
     >
       <Header />
