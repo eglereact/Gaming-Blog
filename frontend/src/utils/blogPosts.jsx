@@ -5,12 +5,14 @@ export const blogPosts = [
     dateCreate: "2025-02-21",
     title: "The Rise of Tactical Shooters",
     shortDescription:
-      "Explore the evolution and impact of tactical shooters in the gaming industry.",
+      "Explore the evolution and impact of tactical shooters in the gaming industry. Join us as we dive into the best adventure games of the decade.",
     author: "John Doe",
     comments: 12,
     minutesToRead: 5,
     views: 1532,
-    featured: false,
+    featured: true,
+    image:
+      "https://images.pexels.com/photos/1346154/pexels-photo-1346154.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   },
   {
     id: 2,
@@ -18,12 +20,14 @@ export const blogPosts = [
     dateCreate: "2025-02-20",
     title: "Epic Adventures Await",
     shortDescription:
-      "Join us as we dive into the best adventure games of the decade.",
+      "Join us as we dive into the best adventure games of the decade. Join us as we dive into the best adventure games of the decade.",
     author: "Jane Smith",
     comments: 25,
     minutesToRead: 7,
     views: 1894,
-    featured: false,
+    featured: true,
+    image:
+      "https://images.pexels.com/photos/6498299/pexels-photo-6498299.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   },
   {
     id: 3,
@@ -37,6 +41,8 @@ export const blogPosts = [
     minutesToRead: 6,
     views: 2023,
     featured: true,
+    image:
+      "https://images.pexels.com/photos/8721318/pexels-photo-8721318.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   },
   {
     id: 4,
