@@ -9,6 +9,11 @@
   .bg-main-red {
     @apply bg-[#F70035];
   }
+
+  .border-main-red {
+    @apply border-[#F70035];
+  }
+
   .text-main-gray {
     @apply text-[#cccccc];
   }

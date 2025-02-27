@@ -1,8 +1,9 @@
 import Banner from "../components/Banner";
+import Footer from "../components/footer/Footer";
 
 function HomePage() {
   return (
-    <div className="bg-blue-950">
+    <div className="bg-[#181A1B]">
       <Banner />
       <main>
         <div className="p-4">
@@ -15,6 +16,7 @@ function HomePage() {
           ))}
         </div>
       </main>
+      <Footer />
     </div>
   );
 }
