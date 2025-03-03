@@ -33,7 +33,7 @@ function FormInput({
         />{" "}
         <span className="text-white text-sm capitalize ml-2">{subLabel}</span>
       </div>
-      <div className="text-red-400 text-sm h-4">
+      <div className="text-main-red text-sm h-6">
         <span className={errors[name] ? "inline-block" : ""}>
           {errors[name] ?? ""}
         </span>
