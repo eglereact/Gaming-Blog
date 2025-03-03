@@ -18,7 +18,10 @@ function TopHeader() {
           <Link to="/" className="text-main-gray hover:text-white smooth-hover">
             Login
           </Link>
-          <Link to="/" className="text-main-gray hover:text-white smooth-hover">
+          <Link
+            to="/registration"
+            className="text-main-gray hover:text-white smooth-hover"
+          >
             Registration
           </Link>
         </div>
