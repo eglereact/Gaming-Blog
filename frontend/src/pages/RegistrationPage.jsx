@@ -1,6 +1,7 @@
 import Breadcrumbs from "../components/Breadcrumbs";
 import Footer from "../components/footer/Footer";
 import Header from "../components/header/Header";
+import RegistrationForm from "../components/RegistrationForm";
 
 function RegistrationPage() {
   return (
@@ -8,6 +9,7 @@ function RegistrationPage() {
       <Header />
       <main>
         <Breadcrumbs title="Registration" />
+        <RegistrationForm />
       </main>
       <Footer />
     </div>
