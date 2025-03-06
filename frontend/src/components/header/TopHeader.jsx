@@ -15,7 +15,10 @@ function TopHeader() {
         </p>
         <div className="flex gap-2 items-center ">
           <FaRegUser className="text-main-red" />
-          <Link to="/" className="text-main-gray hover:text-white smooth-hover">
+          <Link
+            to="/login"
+            className="text-main-gray hover:text-white smooth-hover"
+          >
             Login
           </Link>
           <Link

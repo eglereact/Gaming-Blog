@@ -113,7 +113,7 @@ function RegistrationForm() {
       </form>
 
       <div className="text-main-gray flex gap-1 mt-10">
-        <Link to="/" className="hover:text-main-red smooth-hover">
+        <Link to="/login" className="hover:text-main-red smooth-hover">
           Log In
         </Link>
         <span>|</span>
