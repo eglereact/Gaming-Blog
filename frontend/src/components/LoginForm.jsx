@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import FormInput from "./FormInput";
+import { REGISTRATION } from "../utils/routes";
 
 function LoginForm() {
   const [formData, setFormData] = useState({
@@ -74,7 +75,7 @@ function LoginForm() {
       </form>
 
       <div className="text-main-gray flex gap-1 mt-10">
-        <Link to="/registration" className="hover:text-main-red smooth-hover">
+        <Link to={REGISTRATION} className="hover:text-main-red smooth-hover">
           Don't Have Account
         </Link>
         <span>|</span>

@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { socialLinks } from "../../utils/socialLinks";
 import { FaPhoneAlt, FaRegUser } from "react-icons/fa";
+import { HOME, LOGIN, REGISTRATION } from "../../utils/routes";
 
 function TopHeader() {
   return (
@@ -9,20 +10,23 @@ function TopHeader() {
         <p className="flex gap-4 items-center">
           <FaPhoneAlt className="text-main-red" />{" "}
           <span className="text-white">Call: </span>
-          <a href="/" className="text-main-gray hover:text-white smooth-hover">
+          <a
+            href={HOME}
+            className="text-main-gray hover:text-white smooth-hover"
+          >
             +(123)-6418-8990
           </a>
         </p>
         <div className="flex gap-2 items-center ">
           <FaRegUser className="text-main-red" />
           <Link
-            to="/login"
+            to={LOGIN}
             className="text-main-gray hover:text-white smooth-hover"
           >
             Login
           </Link>
           <Link
-            to="/registration"
+            to={REGISTRATION}
             className="text-main-gray hover:text-white smooth-hover"
           >
             Registration
