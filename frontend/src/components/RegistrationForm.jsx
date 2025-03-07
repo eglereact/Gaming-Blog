@@ -113,13 +113,9 @@ function RegistrationForm() {
         </button>
       </form>
 
-      <div className="text-main-gray flex gap-1 mt-10">
+      <div className="text-main-gray flex gap-1 mt-6">
         <Link to={LOGIN} className="hover:text-main-red smooth-hover">
           Log In
-        </Link>
-        <span>|</span>
-        <Link to="/" className="hover:text-main-red smooth-hover">
-          Lost Password
         </Link>
       </div>
     </div>

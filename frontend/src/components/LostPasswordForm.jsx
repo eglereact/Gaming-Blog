@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import FormInput from "./FormInput";
 import { LOST_PASSWORD, REGISTRATION } from "../utils/routes";
 
-function LoginForm() {
+function LostPasswordFrom() {
   const [formData, setFormData] = useState({
     usernameOrEmail: "",
     password: "",
@@ -43,6 +43,11 @@ function LoginForm() {
 
   return (
     <div className="max-w-7xl m-auto p-20">
+      <p className="bg-yellow-50 text-yellow-700 text-sm p-4 w-1/2 text-center mb-6">
+        Please enter your username or email address. You will receive a link to
+        create a new password via email.
+      </p>
+
       <form onSubmit={handleSubmit}>
         <FormInput
           label="Username or Email"
@@ -52,31 +57,18 @@ function LoginForm() {
           onChange={handleChange}
           errors={errors}
         />
-        <FormInput
-          label="Password"
-          name="password"
-          type="password"
-          value={formData.password}
-          onChange={handleChange}
-          errors={errors}
-        />
-        <div className="text-white flex items-center gap-2 font-semibold mb-4">
-          <div>
-            <input type="checkbox" />
-          </div>
-          <p>Remember Me</p>
-        </div>
+
         <button
           type="submit"
           className="bg-main-red px-10 py-3 mt-3 uppercase text-white font-semibold hover:text-main-red hover:bg-white smooth-hover"
         >
-          Log In
+          Get new password
         </button>
       </form>
 
       <div className="text-main-gray flex gap-1 mt-6">
         <Link to={REGISTRATION} className="hover:text-main-red smooth-hover">
-          Don't Have Account
+          Log In
         </Link>
         <span>|</span>
         <Link to={LOST_PASSWORD} className="hover:text-main-red smooth-hover">
@@ -87,4 +79,4 @@ function LoginForm() {
   );
 }
 
-export default LoginForm;
+export default LostPasswordFrom;

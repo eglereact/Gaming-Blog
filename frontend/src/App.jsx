@@ -2,15 +2,17 @@ import { Route, Routes } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import RegistrationPage from "./pages/RegistrationPage";
 import LoginPage from "./pages/LoginPage";
-import { HOME, LOGIN, REGISTRATION } from "./utils/routes";
+import * as l from "./utils/routes";
+import LostPasswordPage from "./pages/LostPasswordPage";
 
 function App() {
   return (
     <>
       <Routes>
-        <Route path={HOME} element={<HomePage />} />
-        <Route path={REGISTRATION} element={<RegistrationPage />} />
-        <Route path={LOGIN} element={<LoginPage />} />
+        <Route path={l.HOME} element={<HomePage />} />
+        <Route path={l.REGISTRATION} element={<RegistrationPage />} />
+        <Route path={l.LOGIN} element={<LoginPage />} />
+        <Route path={l.LOST_PASSWORD} element={<LostPasswordPage />} />
       </Routes>
     </>
   );
